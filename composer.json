@@ -1,0 +1,34 @@
+{
+    "name": "ryank90/lumen-sendgrid",
+    "repositories": {
+      "type": "vcs",
+      "url": "https://github.com/igorw/monolog"
+    },
+    "description": "This library adds a 'SendGrid' mail driver to Lumen.",
+    "license": "MIT",
+    "require": {
+        "illuminate/mail": "~5.1",
+        "guzzlehttp/guzzle": "~5.3|~6.2"
+    },
+    "require-dev": {
+        "illuminate/container": "~5.1.0",
+        "illuminate/filesystem": "~5.1.0",
+        "phpunit/phpunit": ">=4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryank90\\LumenSendGrid\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "tests/TestCase.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ryan Kerry",
+            "email": "ryan.kerry@lush.co.uk"
+        }
+    ]
+}
